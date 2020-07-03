@@ -1,0 +1,6 @@
+.error {
+    color: rgb(131, 25, 25);
+    position: absolute;
+    bottom: -18px;
+    font-size: 14px;
+}

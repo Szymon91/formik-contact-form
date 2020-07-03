@@ -1,0 +1,50 @@
+.contactHeader {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.formControl {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    position: relative;
+}
+
+.formControl label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+input, textarea {
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #40444b;
+    color: #dcddde;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #61DBFB;
+}
+
+input {
+    height: 35px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+textarea {
+    min-height: 135px;
+    padding: 5px 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .contactHeader {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+}
